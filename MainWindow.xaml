@@ -13,7 +13,10 @@
         <canvas:CanvasControl  Grid.Column="0" Grid.Row="0"              
               Draw="CanvasControl_Draw" 
               ClearColor="CornflowerBlue"
-              PointerMoved="CanvasControl_PointerMoved"   />
+              PointerMoved="CanvasControl_PointerMoved"
+                PointerPressed="CanvasControl_PointerPressed_1"
+                PointerReleased="CanvasControl_PointerReleased_1"
+                />
         <ColorPicker x:Name="myCol" Grid.Column="1" Grid.Row="0"  ColorChanged="ColorPicker_ColorChanged"
             ColorSpectrumShape="Box"
             IsMoreButtonVisible="False"
